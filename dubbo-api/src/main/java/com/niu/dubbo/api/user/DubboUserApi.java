@@ -1,4 +1,4 @@
-package com.niu.dubbo.provider.api;
+package com.niu.dubbo.api.user;
 
 public interface DubboUserApi {
 
