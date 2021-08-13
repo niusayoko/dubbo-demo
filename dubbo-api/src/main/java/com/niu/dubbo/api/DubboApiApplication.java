@@ -1,4 +1,4 @@
-package com.niu.dubbo.provider;
+package com.niu.dubbo.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
