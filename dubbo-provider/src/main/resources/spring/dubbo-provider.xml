@@ -12,6 +12,6 @@
     <!--配置服务协议-->
     <dubbo:protocol name="dubbo" port="20890"/>
 
-    <dubbo:service interface="com.niu.dubbo.api.user.DubboUserApi" ref="dubboUserApi"/>
+    <dubbo:service interface="com.niu.dubbo.api.user.DubboUserApi" ref="dubboUserApi" retries="2" timeout="1000"/>
 
 </beans>
