@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ComponentScan({"com.niu"})
+@ComponentScan("com.niu.dubbo")
 @ImportResource("classpath*:spring/*.xml")
 public class DubboProviderApplication {
 
